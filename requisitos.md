@@ -46,3 +46,30 @@ Atualmente, a operação utiliza planilhas, Google Drive, WhatsApp e um aplicati
 - Criar área financeira contemplando mensalidades, vencimentos, pendências e formas de pagamento.
 - (Evolução Futura) Automatização de scout e análise de desempenho esportivo.
 
+## 5. Requisitos Não Funcionais (Qualidades Esperadas)
+- ⁠Usabilidade: Deve exigir poucos cliques, ter acesso rápido e visualização simples.
+- ⁠Clareza: Capacidade de traduzir números técnicos para gráficos e informações compreensíveis.
+- Automação: O sistema deve evitar tarefas repetitivas e buscas manuais.
+- ⁠Escalabilidade: A arquitetura deve suportar o crescimento do número de alunos, unidades e parcerias.
+- ⁠Controle de acesso: O sistema deve garantir que cada perfil de usuário acesse apenas as funções adequadas a ele
+- ⁠Integração: A plataforma deve permitir a possível ligação entre website, aplicativo, WhatsApp e meios de pagamentos
+- ⁠Identidade visual: O design precisa transmitir uma imagem profissional e consistente da marca.
+
+## 6. Regras de Negócio
+- ⁠As avaliações físicas e técnicas devem obrigatoriamente considerar a faixa etária e a modalidade esportiva do atleta.
+- ⁠O ciclo de vida do treinamento determina que o atleta é avaliado, recebe um planejamento de treino e, posteriormente, deve ser reavaliado para medir sua evolução.
+- ⁠Os créditos semanais de aulas são renovados e não são cumulativos.
+- ⁠O relatório de treino só deve ser criado e preenchido após a confirmação da presença do aluno.
+- ⁠Somente o professor responsável por ministrar a aula tem permissão para preencher o relatório daquele treino.
+
+## 7. Restrições e Pontos de Atenção
+-  ⁠Escopo: É preciso separar claramente as funcionalidades do website institucional do sistema completo de gestão, pois os dois temas estão misturados na visão do cliente.
+- ⁠  ⁠Complexidade Externa: Dependências como integração com WhatsApp, gateways de pagamentos, sistemas de login e uso de IA aumentam a complexidade técnica e dependem de serviços externos.
+-  ⁠Segurança e Privacidade: O sistema lidará com dados pessoais de alunos e atletas, incluindo menores de idade, exigindo forte adequação à LGPD, privacidade e rígido controle de acesso.
+- ⁠Escopo Futuro: A ideia de automatização de scout/análise de vídeo por IA é de alta complexidade e não deve compor o escopo do requisito básico do site atual.
+
+## 8. Prioridades de Implementação
+- ⁠*Essencial (Fase 1 - Site):* Apresentação das marcas PKZ e One Two One, exposição de serviços, fotos/vídeos, diferenciais, facilitação de contato/WhatsApp, identidade visual e responsividade.
+- ⁠*Evolução (Fase 2 - Integração e App):* Cadastro e login de usuários, módulo de agenda, relatórios e gráficos de desempenho, notificações e controle financeiro.
+- ⁠*Fora do Escopo Inicial (Fase 3):* Automação avançada de scout por vídeo.
+
