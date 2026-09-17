@@ -88,4 +88,24 @@ Clientes já cadastrados terão um ponto de acesso separado para a área restrit
 | *Diferencial* | Reúne as duas marcas em uma identidade comum, mas preserva a comunicação e a experiência específicas de cada público. |
 
 ---
+### 3.1 Stakeholders
 
+| Stakeholder | Interesse / necessidade |
+|---|---|
+| *Gestão da PKZ / One Two One* | Apresentar as marcas de forma profissional, fortalecer a identidade do grupo e facilitar a comunicação com o público. |
+| *Professores e equipe técnica* | Ter as informações institucionais organizadas e, futuramente, acesso a recursos internos relacionados aos alunos. |
+| *Recepção / atendimento* | Facilitar contato, cadastro, agendamentos e encaminhamento de interessados. |
+| *Equipe acadêmica* | Transformar os requisitos do cliente em documentação, protótipo e front-end funcional. |
+| *Professor da disciplina* | Acompanhar a aplicação das técnicas de projeto, documentação, UX e desenvolvimento front-end. |
+
+### 3.2 Usuários
+
+| Usuário | Necessidades principais |
+|---|---|
+| *Visitante / potencial cliente* | Entender o que é a empresa, comparar as duas marcas, conhecer serviços e entrar em contato. |
+| *Atleta da PKZ* | Conhecer a metodologia, visualizar informações da PKZ e acessar sua área quando disponível. |
+| *Pai ou responsável* | Entender o trabalho realizado com o atleta e acessar informações autorizadas de forma clara e segura. |
+| *Cliente da One Two One* | Conhecer serviços e acessar recursos pessoais quando disponíveis. |
+| *Professor / profissional interno* | Em etapas futuras, consultar informações de agenda e acompanhamento relacionadas aos alunos sob sua responsabilidade. |
+
+---
