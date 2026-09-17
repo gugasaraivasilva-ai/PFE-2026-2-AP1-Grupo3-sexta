@@ -46,3 +46,46 @@ Funcionalidades como agenda em tempo real, autenticação completa, relatórios 
 | **Hub**              | Página inicial que reúne e direciona o usuário para as duas marcas.                                               |
 | **Landing page**     | Página específica de uma marca, serviço ou objetivo.                                                              |
 | **Área restrita**    | Espaço acessível somente por usuários autorizados.                                                                |
+## 2. Posicionamento
+
+### 2.1 Oportunidade
+
+A PKZ e a One Two One possuem uma operação em crescimento, diferentes públicos e uma metodologia de atendimento individualizado, porém ainda não contam com um website institucional consolidado que organize essas informações e apresente as duas marcas de forma integrada.
+
+O portal cria a oportunidade de:
+
+- Fortalecer a presença digital do grupo.
+- Explicar de forma clara a proposta de cada marca.
+- Apresentar metodologia, equipe e estrutura.
+- Facilitar o primeiro contato de novos interessados.
+- Organizar o caminho entre conteúdo público e serviços destinados a clientes.
+- Criar uma base visual para integrações futuras com os processos internos já utilizados pela empresa.
+
+### 2.2 Problema a ser resolvido
+
+Atualmente, grande parte das informações e contatos depende de comunicação direta, principalmente via WhatsApp. Além disso, PKZ e One Two One possuem públicos e abordagens diferentes, o que pode gerar dúvidas para quem ainda não conhece o grupo.
+
+Também existem informações internas importantes, como agenda, relatórios e evolução dos alunos, que precisam permanecer separadas do conteúdo público.
+
+O problema central é, portanto, *organizar a presença digital do grupo em uma experiência simples, visual e profissional, sem misturar conteúdos públicos com informações privadas de clientes*.
+
+### 2.3 Proposta de solução
+
+Criar um portal central que apresente o grupo e permita ao visitante escolher entre *PKZ* e *One Two One*.
+
+A partir dessa escolha, o usuário será direcionado para uma página específica da marca, com conteúdo adequado ao seu público. Cada página poderá apresentar metodologia, serviços, estrutura, equipe, fotos, vídeos, perguntas frequentes e formas de contato.
+
+Clientes já cadastrados terão um ponto de acesso separado para a área restrita, evitando que informações pessoais apareçam no ambiente público.
+
+### 2.4 Declaração de posicionamento
+
+| Elemento | Declaração |
+|---|---|
+| *Para* | Visitantes, atletas, pais/responsáveis e pessoas interessadas em treinamento individualizado. |
+| *Que precisam* | Entender a proposta das marcas, conhecer os serviços e encontrar uma forma simples de iniciar contato. |
+| *O produto* | É um portal web integrado para PKZ e One Two One. |
+| *Que oferece* | Informação institucional clara, navegação por marca, conteúdo visual e acesso facilitado aos canais de contato. |
+| *Diferencial* | Reúne as duas marcas em uma identidade comum, mas preserva a comunicação e a experiência específicas de cada público. |
+
+---
+
