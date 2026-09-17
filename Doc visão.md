@@ -109,3 +109,59 @@ Clientes já cadastrados terão um ponto de acesso separado para a área restrit
 | *Professor / profissional interno* | Em etapas futuras, consultar informações de agenda e acompanhamento relacionadas aos alunos sob sua responsabilidade. |
 
 ---
+## 4. Visão Geral do Produto
+
+### 4.1 Estrutura geral
+
+O portal será organizado em três níveis principais:
+
+1. *Hub inicial do grupo*
+   - Apresentação institucional.
+   - Vídeo ou imagem de impacto.
+   - Breve explicação do grupo.
+   - Escolha entre PKZ e One Two One.
+   
+   2. *Página PKZ*
+   - Apresentação da marca.
+   - Público e metodologia.
+   - Serviços e avaliações.
+   - Fotos e vídeos.
+   - Equipe.
+   - Perguntas frequentes.
+   - Contato e CTA.
+   - Entrada para área do atleta/responsável.
+
+.
+
+3. *Página One Two One*
+   - Apresentação da marca.
+   - Público e metodologia.
+   - Serviços e estrutura.
+   - Fotos e vídeos.
+   - Equipe.
+   - Perguntas frequentes.
+   - Contato e CTA.
+   - Entrada para área do cliente.
+
+   ### 4.2 Recursos principais
+
+- Navegação simples por seções.
+- Identidade visual baseada nos materiais oficiais do cliente.
+- Conteúdo visual com fotos e vídeos.
+- Apresentação da metodologia e dos serviços.
+- Seção de equipe.
+- Perguntas frequentes.
+- Botões de contato.
+- CTA para avaliação, aula experimental ou cadastro.
+- Acesso separado para clientes.
+- Estrutura responsiva.
+
+### 4.3 Diferenciais do produto
+
+- Uma única porta de entrada para duas marcas relacionadas.
+- Comunicação específica para cada público.
+- Separação clara entre visitante e cliente cadastrado.
+- Conteúdo institucional organizado para reduzir dúvidas recorrentes.
+- Estrutura preparada para crescimento e futuras integrações.
+- Uso de informações visuais para facilitar a compreensão.
+
