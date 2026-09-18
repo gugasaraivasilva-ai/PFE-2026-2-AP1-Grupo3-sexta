@@ -200,3 +200,23 @@ O portal será organizado em três níveis principais:
 | _RNF07 - Privacidade_       | Nenhum dado pessoal real de aluno ou atleta deve ser exposto na área pública ou em protótipos acadêmicos.                    |
 | _RNF08 - Manutenibilidade_  | A estrutura do front-end deve ser organizada para permitir inclusão de novas seções e futuras integrações.                   |
 | _RNF09 - Consistência_      | Componentes, botões, tipografia, espaçamento e padrões de navegação devem manter comportamento visual consistente.           |
+
+## 6. Restrições e Premissas
+
+### 6.1 Restrições
+
+•⁠ ⁠O projeto atual é acadêmico e possui foco em _Front-End_.
+•⁠ ⁠Integrações reais com backend, banco de dados, autenticação, pagamentos e WhatsApp dependem de tecnologias e serviços adicionais.
+•⁠ ⁠Dados pessoais reais de alunos, atletas e responsáveis não devem ser utilizados no protótipo público.
+•⁠ ⁠Imagens de alunos, especialmente menores de idade, dependem de autorização adequada do cliente.
+•⁠ ⁠O website não deve apresentar um preço único como regra geral, pois os pacotes podem variar conforme o serviço e a necessidade do cliente.
+•⁠ ⁠O prazo de desenvolvimento é limitado ao calendário da disciplina.
+
+### 6.2 Premissas
+
+•⁠ ⁠O cliente fornecerá logos, paleta oficial e demais elementos de identidade visual.
+•⁠ ⁠O cliente fornecerá ou autorizará fotos e vídeos que poderão ser usados no site.
+•⁠ ⁠O conteúdo institucional será validado pelo cliente antes da versão final.
+•⁠ ⁠PKZ e One Two One continuarão sendo apresentadas como partes do mesmo grupo.
+•⁠ ⁠A página inicial funcionará como ponto de entrada comum e as páginas internas terão comunicação específica para cada marca.
+•⁠ ⁠Funcionalidades privadas poderão ser prototipadas mesmo que a integração completa não seja realizada na primeira versão.
