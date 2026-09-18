@@ -46,6 +46,7 @@ Funcionalidades como agenda em tempo real, autenticação completa, relatórios 
 | **Hub**              | Página inicial que reúne e direciona o usuário para as duas marcas.                                               |
 | **Landing page**     | Página específica de uma marca, serviço ou objetivo.                                                              |
 | **Área restrita**    | Espaço acessível somente por usuários autorizados.                                                                |
+
 ## 2. Posicionamento
 
 ### 2.1 Oportunidade
@@ -67,11 +68,11 @@ Atualmente, grande parte das informações e contatos depende de comunicação d
 
 Também existem informações internas importantes, como agenda, relatórios e evolução dos alunos, que precisam permanecer separadas do conteúdo público.
 
-O problema central é, portanto, *organizar a presença digital do grupo em uma experiência simples, visual e profissional, sem misturar conteúdos públicos com informações privadas de clientes*.
+O problema central é, portanto, _organizar a presença digital do grupo em uma experiência simples, visual e profissional, sem misturar conteúdos públicos com informações privadas de clientes_.
 
 ### 2.3 Proposta de solução
 
-Criar um portal central que apresente o grupo e permita ao visitante escolher entre *PKZ* e *One Two One*.
+Criar um portal central que apresente o grupo e permita ao visitante escolher entre _PKZ_ e _One Two One_.
 
 A partir dessa escolha, o usuário será direcionado para uma página específica da marca, com conteúdo adequado ao seu público. Cada página poderá apresentar metodologia, serviços, estrutura, equipe, fotos, vídeos, perguntas frequentes e formas de contato.
 
@@ -79,49 +80,50 @@ Clientes já cadastrados terão um ponto de acesso separado para a área restrit
 
 ### 2.4 Declaração de posicionamento
 
-| Elemento | Declaração |
-|---|---|
-| *Para* | Visitantes, atletas, pais/responsáveis e pessoas interessadas em treinamento individualizado. |
-| *Que precisam* | Entender a proposta das marcas, conhecer os serviços e encontrar uma forma simples de iniciar contato. |
-| *O produto* | É um portal web integrado para PKZ e One Two One. |
-| *Que oferece* | Informação institucional clara, navegação por marca, conteúdo visual e acesso facilitado aos canais de contato. |
-| *Diferencial* | Reúne as duas marcas em uma identidade comum, mas preserva a comunicação e a experiência específicas de cada público. |
+| Elemento       | Declaração                                                                                                            |
+| -------------- | --------------------------------------------------------------------------------------------------------------------- |
+| _Para_         | Visitantes, atletas, pais/responsáveis e pessoas interessadas em treinamento individualizado.                         |
+| _Que precisam_ | Entender a proposta das marcas, conhecer os serviços e encontrar uma forma simples de iniciar contato.                |
+| _O produto_    | É um portal web integrado para PKZ e One Two One.                                                                     |
+| _Que oferece_  | Informação institucional clara, navegação por marca, conteúdo visual e acesso facilitado aos canais de contato.       |
+| _Diferencial_  | Reúne as duas marcas em uma identidade comum, mas preserva a comunicação e a experiência específicas de cada público. |
 
 ---
+
 ### 3.1 Stakeholders
 
-| Stakeholder | Interesse / necessidade |
-|---|---|
-| *Gestão da PKZ / One Two One* | Apresentar as marcas de forma profissional, fortalecer a identidade do grupo e facilitar a comunicação com o público. |
-| *Professores e equipe técnica* | Ter as informações institucionais organizadas e, futuramente, acesso a recursos internos relacionados aos alunos. |
-| *Recepção / atendimento* | Facilitar contato, cadastro, agendamentos e encaminhamento de interessados. |
-| *Equipe acadêmica* | Transformar os requisitos do cliente em documentação, protótipo e front-end funcional. |
-| *Professor da disciplina* | Acompanhar a aplicação das técnicas de projeto, documentação, UX e desenvolvimento front-end. |
+| Stakeholder                    | Interesse / necessidade                                                                                               |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| _Gestão da PKZ / One Two One_  | Apresentar as marcas de forma profissional, fortalecer a identidade do grupo e facilitar a comunicação com o público. |
+| _Professores e equipe técnica_ | Ter as informações institucionais organizadas e, futuramente, acesso a recursos internos relacionados aos alunos.     |
+| _Recepção / atendimento_       | Facilitar contato, cadastro, agendamentos e encaminhamento de interessados.                                           |
+| _Equipe acadêmica_             | Transformar os requisitos do cliente em documentação, protótipo e front-end funcional.                                |
+| _Professor da disciplina_      | Acompanhar a aplicação das técnicas de projeto, documentação, UX e desenvolvimento front-end.                         |
 
 ### 3.2 Usuários
 
-| Usuário | Necessidades principais |
-|---|---|
-| *Visitante / potencial cliente* | Entender o que é a empresa, comparar as duas marcas, conhecer serviços e entrar em contato. |
-| *Atleta da PKZ* | Conhecer a metodologia, visualizar informações da PKZ e acessar sua área quando disponível. |
-| *Pai ou responsável* | Entender o trabalho realizado com o atleta e acessar informações autorizadas de forma clara e segura. |
-| *Cliente da One Two One* | Conhecer serviços e acessar recursos pessoais quando disponíveis. |
-| *Professor / profissional interno* | Em etapas futuras, consultar informações de agenda e acompanhamento relacionadas aos alunos sob sua responsabilidade. |
+| Usuário                            | Necessidades principais                                                                                               |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| _Visitante / potencial cliente_    | Entender o que é a empresa, comparar as duas marcas, conhecer serviços e entrar em contato.                           |
+| _Atleta da PKZ_                    | Conhecer a metodologia, visualizar informações da PKZ e acessar sua área quando disponível.                           |
+| _Pai ou responsável_               | Entender o trabalho realizado com o atleta e acessar informações autorizadas de forma clara e segura.                 |
+| _Cliente da One Two One_           | Conhecer serviços e acessar recursos pessoais quando disponíveis.                                                     |
+| _Professor / profissional interno_ | Em etapas futuras, consultar informações de agenda e acompanhamento relacionadas aos alunos sob sua responsabilidade. |
 
 ---
+
 ## 4. Visão Geral do Produto
 
 ### 4.1 Estrutura geral
 
 O portal será organizado em três níveis principais:
 
-1. *Hub inicial do grupo*
+1. _Hub inicial do grupo_
    - Apresentação institucional.
    - Vídeo ou imagem de impacto.
    - Breve explicação do grupo.
    - Escolha entre PKZ e One Two One.
-   
-   2. *Página PKZ*
+   2. _Página PKZ_
    - Apresentação da marca.
    - Público e metodologia.
    - Serviços e avaliações.
@@ -133,7 +135,7 @@ O portal será organizado em três níveis principais:
 
 .
 
-3. *Página One Two One*
+3. _Página One Two One_
    - Apresentação da marca.
    - Público e metodologia.
    - Serviços e estrutura.
@@ -165,3 +167,36 @@ O portal será organizado em três níveis principais:
 - Estrutura preparada para crescimento e futuras integrações.
 - Uso de informações visuais para facilitar a compreensão.
 
+## 5. Requisitos de Alto Nível
+
+### 5.1 Requisitos funcionais
+
+| ID     | Requisito funcional                                                                                                                    |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| _RF01_ | O portal deve apresentar a PKZ e a One Two One como marcas pertencentes ao mesmo grupo.                                                |
+| _RF02_ | A página inicial deve permitir que o usuário escolha entre PKZ e One Two One.                                                          |
+| _RF03_ | O sistema deve direcionar o usuário para uma página específica da marca selecionada.                                                   |
+| _RF04_ | Cada página de marca deve apresentar descrição, público, metodologia e serviços.                                                       |
+| _RF05_ | O site deve permitir a exibição de fotos e vídeos autorizados pelo cliente.                                                            |
+| _RF06_ | O site deve apresentar uma seção com os profissionais da equipe quando os dados forem fornecidos pelo cliente.                         |
+| _RF07_ | O site deve apresentar perguntas frequentes relacionadas a metodologia, horários, serviços e funcionamento.                            |
+| _RF08_ | O site deve disponibilizar formas de contato, com destaque para WhatsApp nas páginas específicas de cada marca.                        |
+| _RF09_ | O site deve oferecer chamadas para avaliação, aula experimental, cadastro ou contato, conforme a marca.                                |
+| _RF10_ | O portal deve possuir um ponto de entrada para login/cadastro ou área restrita de clientes.                                            |
+| _RF11_ | Informações privadas, como agenda, relatórios e evolução individual, devem ficar fora da área pública.                                 |
+| _RF12_ | O protótipo poderá representar telas de agenda, histórico, relatórios e gráficos de evolução como preparação para futuras integrações. |
+| _RF13_ | O usuário deve conseguir retornar ao hub e alternar entre as páginas das duas marcas sem dificuldade.                                  |
+
+### 5.2 Requisitos não funcionais
+
+| ID                          | Requisito não funcional                                                                                                      |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| _RNF01 - Usabilidade_       | As informações principais devem ser encontradas com poucos passos e com linguagem clara.                                     |
+| _RNF02 - Responsividade_    | O layout deve se adaptar a celular, tablet e computador.                                                                     |
+| _RNF03 - Acessibilidade_    | O projeto deve observar contraste adequado, legibilidade, textos alternativos em imagens e navegação compreensível.          |
+| _RNF04 - Identidade visual_ | O front-end deve utilizar a identidade visual oficial disponibilizada pelo cliente, mantendo coerência entre as duas marcas. |
+| _RNF05 - Desempenho_        | Imagens e vídeos devem ser utilizados de forma otimizada para evitar carregamento excessivamente lento.                      |
+| _RNF06 - Compatibilidade_   | A interface deve funcionar adequadamente nos principais navegadores modernos, incluindo Chrome, Safari e Firefox.            |
+| _RNF07 - Privacidade_       | Nenhum dado pessoal real de aluno ou atleta deve ser exposto na área pública ou em protótipos acadêmicos.                    |
+| _RNF08 - Manutenibilidade_  | A estrutura do front-end deve ser organizada para permitir inclusão de novas seções e futuras integrações.                   |
+| _RNF09 - Consistência_      | Componentes, botões, tipografia, espaçamento e padrões de navegação devem manter comportamento visual consistente.           |
