@@ -220,3 +220,27 @@ O portal será organizado em três níveis principais:
 •⁠ ⁠PKZ e One Two One continuarão sendo apresentadas como partes do mesmo grupo.
 •⁠ ⁠A página inicial funcionará como ponto de entrada comum e as páginas internas terão comunicação específica para cada marca.
 •⁠ ⁠Funcionalidades privadas poderão ser prototipadas mesmo que a integração completa não seja realizada na primeira versão.
+
+## 7. Riscos e Dependências
+
+| Risco / dependência                                       | Impacto                                                                                 | Tratamento proposto                                                                                         |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| _Atraso no envio de fotos, vídeos ou textos pelo cliente_ | Pode limitar a fidelidade visual do protótipo.                                          | Utilizar placeholders temporários e substituir após o recebimento do material oficial.                      |
+| _Uso de imagem de menores sem autorização adequada_       | Risco de privacidade e uso indevido de imagem.                                          | Utilizar apenas material autorizado pelo cliente e evitar dados identificáveis no protótipo.                |
+| _Crescimento excessivo do escopo_                         | O projeto pode deixar de ser um site e se transformar em um sistema completo de gestão. | Separar claramente o MVP do site das integrações futuras.                                                   |
+| _Dependência de backend_                                  | Login, agenda, relatórios e dados reais não funcionam apenas com front-end.             | Representar essas funcionalidades no protótipo e documentar a necessidade de integração futura.             |
+| _Integração com WhatsApp ou serviços externos_            | Pode exigir API, custos e configuração adicional.                                       | Tratar como integração futura ou usar links simples de contato na etapa inicial.                            |
+| _Mudança de requisitos durante o desenvolvimento_         | Pode causar retrabalho.                                                                 | Validar protótipos e decisões com o cliente de forma incremental.                                           |
+| _Exposição de dados pessoais_                             | Pode gerar problema de privacidade e LGPD.                                              | Manter separação entre conteúdo público e área restrita e utilizar apenas dados fictícios em demonstrações. |
+| _Baixa qualidade ou ausência de mídia oficial_            | Pode reduzir o impacto visual do site.                                                  | Planejar a interface para receber posteriormente fotos e vídeos produzidos pelo cliente.                    |
+
+## 8. Critérios gerais de aceitação
+
+•⁠ ⁠O usuário deve identificar claramente que PKZ e One Two One fazem parte do mesmo grupo.
+•⁠ ⁠O usuário deve compreender a diferença entre as duas marcas.
+•⁠ ⁠O usuário deve conseguir acessar a página específica da marca desejada.
+•⁠ ⁠As informações principais devem estar organizadas em seções claras.
+•⁠ ⁠O site deve funcionar de forma responsiva.
+•⁠ ⁠O site deve disponibilizar um caminho simples para contato.
+•⁠ ⁠Conteúdos privados devem permanecer separados da área pública.
+•⁠ ⁠A identidade visual deve ser coerente com o material oficial fornecido pelo cliente.
