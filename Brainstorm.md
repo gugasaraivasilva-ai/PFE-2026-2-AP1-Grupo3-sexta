@@ -47,3 +47,75 @@ Nesta etapa, as ideias são registradas sem julgamento ou descarte imediato.
 - Criar uma seção com os profissionais da equipe.
 - Mostrar nome, função, formação e especialidade dos profissionais quando essas informações forem fornecidas pelo cliente.
 - Criar uma seção de perguntas frequentes.
+- Incluir perguntas sobre metodologia, horários, serviços e funcionamento.
+- Evitar exibir um preço fixo como informação principal, pois os pacotes podem variar conforme a necessidade do cliente.
+- Utilizar chamadas para **conhecer a empresa**, **agendar uma avaliação/aula experimental** ou **entrar em contato**.
+- Disponibilizar acesso ao WhatsApp.
+- Separar o contato da PKZ e da One Two One dentro das respectivas páginas.
+- Criar uma área para início de cadastro de novos interessados.
+- Criar um acesso reservado para clientes já cadastrados.
+- Deixar agenda, relatórios, histórico de treinos e gráficos de evolução dentro de uma área restrita.
+- Apresentar gráficos de evolução de forma visual e acompanhados de observações explicativas.
+- Permitir que informações relevantes do treino anterior possam aparecer na experiência do cliente/professor em uma evolução futura.
+- Considerar fila de espera e notificações de agendamento como evolução futura do sistema.
+- Priorizar navegação simples, com poucas etapas para chegar às informações principais.
+- Criar layout responsivo para celular, tablet e computador.
+- Aplicar boas práticas de acessibilidade e contraste.
+- Evitar exposição de dados pessoais de alunos e atletas na área pública.
+- Preparar a estrutura visual do front-end para futuras integrações com backend, agenda, relatórios e autenticação.
+- Utilizar elementos visuais diferentes para PKZ e One Two One sem perder a identidade comum do grupo.
+- Criar uma navegação por seções na página inicial, inspirada em sites institucionais com rolagem simples e conteúdo progressivo.
+
+--## 4. Agrupamento das ideias ### 4.1 Página inicial / Hub
+- Apresentação geral do grupo.
+- Vídeo ou imagem de impacto.
+- Introdução curta sobre PKZ e One Two One.
+- Escolha visual entre as duas marcas.
+- História resumida do grupo.
+- Identidade visual comum.
+
+### 4.2 Página PKZ
+- Explicação da PKZ.
+- Público predominantemente infantojuvenil e esportivo.
+- Metodologia voltada ao desenvolvimento de atletas.
+- Avaliações físicas e acompanhamento da evolução.
+- Fotos e vídeos de treinamentos.
+- Equipe.
+- Perguntas frequentes.
+- Contato e chamada para avaliação.
+- Acesso do atleta/responsável à área restrita.
+
+### 4.3 Página One Two One
+- Explicação da One Two One.
+- Público predominantemente adulto.
+- Treinamento individualizado e musculação.
+- Serviços oferecidos.
+- Estrutura e equipamentos.
+- Equipe.
+- Perguntas frequentes.
+- Contato e chamada para aula experimental.
+- Acesso do cliente à área restrita.
+
+### 4.4 Área restrita / Evoluções futuras
+- Login e cadastro.
+- Agenda.
+- Agendamento e cancelamento.
+- Histórico de treinos.
+- Relatórios.
+- Gráficos de evolução.
+- Observações do treino anterior.
+- Notificações.
+- Fila de espera.
+- Informações financeiras.
+
+--## 5. Análise e seleção das ideias
+
+| Prioridade | Ideias selecionadas |
+|---|---|
+| **Essencial para o site** | Hub inicial, apresentação das marcas, páginas separadas para PKZ e One Two One, metodologia, serviços, equipe, fotos/vídeos, FAQ, contato e identidade ↩ visual responsiva. |
+| **Importante** | Cadastro inicial, chamadas para avaliação/aula experimental, acesso à área do cliente e estrutura preparada para integração. |
+| **Evolução futura** | Agenda em tempo real, cancelamento, fila de espera, notificações, relatórios, gráficos de evolução, observações de treino, financeiro e outras automações. |
+
+--## 6. Direção escolhida
+
+A proposta inicial é desenvolver um **portal central do grupo**, com uma página de entrada que apresenta a identidade comum e direciona o usuário para a PKZ ou para a One Two One. Cada marca terá sua própria página, com conteúdo, linguagem e imagens adequadas ao seu público. O visitante poderá conhecer a empresa, entender a metodologia, visualizar a estrutura e entrar em contato. Clientes já cadastrados terão um ponto de acesso separado para uma área restrita, cuja integração completa dependerá das próximas etapas do projeto. O site deverá ser visual, responsivo, acessível e organizado por seções, priorizando clareza e facilidade de navegação.
