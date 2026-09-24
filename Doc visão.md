@@ -1,6 +1,6 @@
-# Documento de Visão - Portal PKZ / One Two One
+# Documento de Visão - Portal PKZ / One to One
 
-> Documento de visão do projeto acadêmico de Front-End para a PKZ (Playmakerz) e a One Two One.
+> Documento de visão do projeto acadêmico de Front-End para a PKZ (Playmakerz) e a One to One.
 
 ---
 
@@ -8,15 +8,15 @@
 
 ### 1.1 Propósito
 
-Este documento define a visão do portal web da **PKZ / One Two One**, alinhando o entendimento entre cliente, equipe de desenvolvimento e professor sobre o problema, o escopo, os usuários, as funcionalidades de alto nível, as restrições e os principais riscos do projeto.
+Este documento define a visão do portal web da **PKZ / One to One**, alinhando o entendimento entre cliente, equipe de desenvolvimento e professor sobre o problema, o escopo, os usuários, as funcionalidades de alto nível, as restrições e os principais riscos do projeto.
 
-O objetivo do produto é criar uma presença digital integrada para as duas marcas, permitindo que visitantes conheçam o grupo, entendam a diferença entre PKZ e One Two One e sejam direcionados para a experiência adequada ao seu perfil.
+O objetivo do produto é criar uma presença digital integrada para as duas marcas, permitindo que visitantes conheçam o grupo, entendam a diferença entre PKZ e One to One e sejam direcionados para a experiência adequada ao seu perfil.
 
 ### 1.2 Público-alvo do documento
 
 Este documento é destinado a:
 
-- Cliente e responsáveis pela PKZ / One Two One.
+- Cliente e responsáveis pela PKZ / One to One.
 - Equipe acadêmica responsável pelo projeto.
 - Professor responsável pela disciplina.
 - Demais integrantes envolvidos na validação de requisitos, protótipo e implementação.
@@ -26,9 +26,9 @@ Este documento é destinado a:
 O projeto contempla um **portal web responsivo** composto por:
 
 - Uma página inicial que funciona como hub do grupo.
-- Apresentação geral da PKZ / One Two One.
+- Apresentação geral da PKZ / One to One.
 - Direcionamento para uma página específica da PKZ.
-- Direcionamento para uma página específica da One Two One.
+- Direcionamento para uma página específica da One to One.
 - Conteúdo institucional sobre metodologia, serviços, estrutura e equipe.
 - Fotos e vídeos fornecidos ou autorizados pelo cliente.
 - Perguntas frequentes.
@@ -42,7 +42,7 @@ Funcionalidades como agenda em tempo real, autenticação completa, relatórios 
 | Termo                | Definição                                                                                                         |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | **PKZ / Playmakerz** | Marca do grupo voltada principalmente ao desenvolvimento esportivo e ao treinamento de atletas.                   |
-| **One Two One**      | Marca do grupo voltada principalmente ao treinamento individualizado, musculação e atendimento de público adulto. |
+| **One to One**      | Marca do grupo voltada principalmente ao treinamento individualizado, musculação e atendimento de público adulto. |
 | **Hub**              | Página inicial que reúne e direciona o usuário para as duas marcas.                                               |
 | **Landing page**     | Página específica de uma marca, serviço ou objetivo.                                                              |
 | **Área restrita**    | Espaço acessível somente por usuários autorizados.                                                                |
@@ -51,7 +51,7 @@ Funcionalidades como agenda em tempo real, autenticação completa, relatórios 
 
 ### 2.1 Oportunidade
 
-A PKZ e a One Two One possuem uma operação em crescimento, diferentes públicos e uma metodologia de atendimento individualizado, porém ainda não contam com um website institucional consolidado que organize essas informações e apresente as duas marcas de forma integrada.
+A PKZ e a One to One possuem uma operação em crescimento, diferentes públicos e uma metodologia de atendimento individualizado, porém ainda não contam com um website institucional consolidado que organize essas informações e apresente as duas marcas de forma integrada.
 
 O portal cria a oportunidade de:
 
@@ -64,7 +64,7 @@ O portal cria a oportunidade de:
 
 ### 2.2 Problema a ser resolvido
 
-Atualmente, grande parte das informações e contatos depende de comunicação direta, principalmente via WhatsApp. Além disso, PKZ e One Two One possuem públicos e abordagens diferentes, o que pode gerar dúvidas para quem ainda não conhece o grupo.
+Atualmente, grande parte das informações e contatos depende de comunicação direta, principalmente via WhatsApp. Além disso, PKZ e One to One possuem públicos e abordagens diferentes, o que pode gerar dúvidas para quem ainda não conhece o grupo.
 
 Também existem informações internas importantes, como agenda, relatórios e evolução dos alunos, que precisam permanecer separadas do conteúdo público.
 
@@ -72,7 +72,7 @@ O problema central é, portanto, _organizar a presença digital do grupo em uma 
 
 ### 2.3 Proposta de solução
 
-Criar um portal central que apresente o grupo e permita ao visitante escolher entre _PKZ_ e _One Two One_.
+Criar um portal central que apresente o grupo e permita ao visitante escolher entre _PKZ_ e _One to One_.
 
 A partir dessa escolha, o usuário será direcionado para uma página específica da marca, com conteúdo adequado ao seu público. Cada página poderá apresentar metodologia, serviços, estrutura, equipe, fotos, vídeos, perguntas frequentes e formas de contato.
 
@@ -84,7 +84,7 @@ Clientes já cadastrados terão um ponto de acesso separado para a área restrit
 | -------------- | --------------------------------------------------------------------------------------------------------------------- |
 | _Para_         | Visitantes, atletas, pais/responsáveis e pessoas interessadas em treinamento individualizado.                         |
 | _Que precisam_ | Entender a proposta das marcas, conhecer os serviços e encontrar uma forma simples de iniciar contato.                |
-| _O produto_    | É um portal web integrado para PKZ e One Two One.                                                                     |
+| _O produto_    | É um portal web integrado para PKZ e One to One.                                                                     |
 | _Que oferece_  | Informação institucional clara, navegação por marca, conteúdo visual e acesso facilitado aos canais de contato.       |
 | _Diferencial_  | Reúne as duas marcas em uma identidade comum, mas preserva a comunicação e a experiência específicas de cada público. |
 
@@ -94,7 +94,7 @@ Clientes já cadastrados terão um ponto de acesso separado para a área restrit
 
 | Stakeholder                    | Interesse / necessidade                                                                                               |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| _Gestão da PKZ / One Two One_  | Apresentar as marcas de forma profissional, fortalecer a identidade do grupo e facilitar a comunicação com o público. |
+| _Gestão da PKZ / One to One_  | Apresentar as marcas de forma profissional, fortalecer a identidade do grupo e facilitar a comunicação com o público. |
 | _Professores e equipe técnica_ | Ter as informações institucionais organizadas e, futuramente, acesso a recursos internos relacionados aos alunos.     |
 | _Recepção / atendimento_       | Facilitar contato, cadastro, agendamentos e encaminhamento de interessados.                                           |
 | _Equipe acadêmica_             | Transformar os requisitos do cliente em documentação, protótipo e front-end funcional.                                |
@@ -107,7 +107,7 @@ Clientes já cadastrados terão um ponto de acesso separado para a área restrit
 | _Visitante / potencial cliente_    | Entender o que é a empresa, comparar as duas marcas, conhecer serviços e entrar em contato.                           |
 | _Atleta da PKZ_                    | Conhecer a metodologia, visualizar informações da PKZ e acessar sua área quando disponível.                           |
 | _Pai ou responsável_               | Entender o trabalho realizado com o atleta e acessar informações autorizadas de forma clara e segura.                 |
-| _Cliente da One Two One_           | Conhecer serviços e acessar recursos pessoais quando disponíveis.                                                     |
+| _Cliente da One to One_           | Conhecer serviços e acessar recursos pessoais quando disponíveis.                                                     |
 | _Professor / profissional interno_ | Em etapas futuras, consultar informações de agenda e acompanhamento relacionadas aos alunos sob sua responsabilidade. |
 
 ---
@@ -122,7 +122,7 @@ O portal será organizado em três níveis principais:
    - Apresentação institucional.
    - Vídeo ou imagem de impacto.
    - Breve explicação do grupo.
-   - Escolha entre PKZ e One Two One.
+   - Escolha entre PKZ e One to One.
    2. _Página PKZ_
    - Apresentação da marca.
    - Público e metodologia.
@@ -135,7 +135,7 @@ O portal será organizado em três níveis principais:
 
 .
 
-3. _Página One Two One_
+3. _Página One to One_
    - Apresentação da marca.
    - Público e metodologia.
    - Serviços e estrutura.
@@ -173,8 +173,8 @@ O portal será organizado em três níveis principais:
 
 | ID     | Requisito funcional                                                                                                                    |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------------- |
-| _RF01_ | O portal deve apresentar a PKZ e a One Two One como marcas pertencentes ao mesmo grupo.                                                |
-| _RF02_ | A página inicial deve permitir que o usuário escolha entre PKZ e One Two One.                                                          |
+| _RF01_ | O portal deve apresentar a PKZ e a One to One como marcas pertencentes ao mesmo grupo.                                                |
+| _RF02_ | A página inicial deve permitir que o usuário escolha entre PKZ e One to One.                                                          |
 | _RF03_ | O sistema deve direcionar o usuário para uma página específica da marca selecionada.                                                   |
 | _RF04_ | Cada página de marca deve apresentar descrição, público, metodologia e serviços.                                                       |
 | _RF05_ | O site deve permitir a exibição de fotos e vídeos autorizados pelo cliente.                                                            |
@@ -217,7 +217,7 @@ O portal será organizado em três níveis principais:
 •⁠ ⁠O cliente fornecerá logos, paleta oficial e demais elementos de identidade visual.
 •⁠ ⁠O cliente fornecerá ou autorizará fotos e vídeos que poderão ser usados no site.
 •⁠ ⁠O conteúdo institucional será validado pelo cliente antes da versão final.
-•⁠ ⁠PKZ e One Two One continuarão sendo apresentadas como partes do mesmo grupo.
+•⁠ ⁠PKZ e One to One continuarão sendo apresentadas como partes do mesmo grupo.
 •⁠ ⁠A página inicial funcionará como ponto de entrada comum e as páginas internas terão comunicação específica para cada marca.
 •⁠ ⁠Funcionalidades privadas poderão ser prototipadas mesmo que a integração completa não seja realizada na primeira versão.
 
@@ -236,7 +236,7 @@ O portal será organizado em três níveis principais:
 
 ## 8. Critérios gerais de aceitação
 
-•⁠ ⁠O usuário deve identificar claramente que PKZ e One Two One fazem parte do mesmo grupo.
+•⁠ ⁠O usuário deve identificar claramente que PKZ e One to One fazem parte do mesmo grupo.
 •⁠ ⁠O usuário deve compreender a diferença entre as duas marcas.
 •⁠ ⁠O usuário deve conseguir acessar a página específica da marca desejada.
 •⁠ ⁠As informações principais devem estar organizadas em seções claras.

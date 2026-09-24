@@ -1,10 +1,10 @@
 # Documento de Visão
 
-**Projeto:** PKZ/Playmakers e One Two One
+**Projeto:** PKZ/Playmakers e One to One
 
 ## 1. Contexto e Problema Central
 
-A empresa possui duas frentes de atuação: a PKZ/Playmakers (focada no desenvolvimento de atletas) e a One Two One (voltada a treinamento personalizado para diferentes públicos).
+A empresa possui duas frentes de atuação: a PKZ/Playmakers (focada no desenvolvimento de atletas) e a One to One (voltada a treinamento personalizado para diferentes públicos).
 Atualmente, a operação utiliza planilhas, Google Drive, WhatsApp e um aplicativo criado no Lovable. O principal problema enfrentado é a dificuldade de centralizar dados de alunos, avaliações, treinos, agenda, relatórios, arquivos, comunicação e cobranças. Com o volume de alunos e a expansão para novas unidades, os processos manuais estão cada vez mais difíceis de gerenciar.
 
 ## 2. Objetivos do Projeto
@@ -29,7 +29,7 @@ Atualmente, a operação utiliza planilhas, Google Drive, WhatsApp e um aplicati
 
 ### 4.1. Website (Escopo Institucional)
 
-- Apresentação das marcas: Explicar claramente PKZ e One Two One, mostrando que fazem parte do mesmo grupo, mas possuem públicos e objetivos diferentes.
+- Apresentação das marcas: Explicar claramente PKZ e One to One, mostrando que fazem parte do mesmo grupo, mas possuem públicos e objetivos diferentes.
 - Portfólio: Apresentar serviços, tipos de treinamento e diferenciais de cada operação.
 - Fotos e vídeos: Mostrar treinos e atividades para tornar o site mais visual e fortalecer a imagem da marca.
 - Contato: Facilitar o contato com a empresa, principalmente via WhatsApp.
@@ -79,6 +79,6 @@ Atualmente, a operação utiliza planilhas, Google Drive, WhatsApp e um aplicati
 
 ## 8. Prioridades de Implementação
 
-- ⁠*Essencial (Fase 1 - Site):* Apresentação das marcas PKZ e One Two One, exposição de serviços, fotos/vídeos, diferenciais, facilitação de contato/WhatsApp, identidade visual e responsividade.
+- ⁠*Essencial (Fase 1 - Site):* Apresentação das marcas PKZ e One to One, exposição de serviços, fotos/vídeos, diferenciais, facilitação de contato/WhatsApp, identidade visual e responsividade.
 - ⁠*Evolução (Fase 2 - Integração e App):* Cadastro e login de usuários, módulo de agenda, relatórios e gráficos de desempenho, notificações e controle financeiro.
 - ⁠*Fora do Escopo Inicial (Fase 3):* Automação avançada de scout por vídeo.

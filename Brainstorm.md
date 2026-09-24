@@ -1,19 +1,19 @@
-# Brainstorm - Site PKZ / One Two One
+# Brainstorm - Site PKZ / One to One
 
-> Projeto acadêmico de Front-End para criação de uma presença web integrada para a PKZ (Playmakerz) e a One Two One.
+> Projeto acadêmico de Front-End para criação de uma presença web integrada para a PKZ (Playmakerz) e a One to One.
 
 ---
 
 ## 1. Definição do problema
 
-A PKZ e a One Two One fazem parte da mesma operação, mas atendem públicos e necessidades diferentes. O projeto precisa apresentar as duas marcas de forma integrada, profissional e clara, permitindo que visitantes entendam rapidamente a proposta de cada uma e sejam direcionados para a experiência mais adequada.
+A PKZ e a One to One fazem parte da mesma operação, mas atendem públicos e necessidades diferentes. O projeto precisa apresentar as duas marcas de forma integrada, profissional e clara, permitindo que visitantes entendam rapidamente a proposta de cada uma e sejam direcionados para a experiência mais adequada.
 
 Além da apresentação institucional, o cliente demonstrou interesse em facilitar o acesso a informações, contato, cadastro e, futuramente, recursos restritos para alunos e responsáveis.
 
 ### Problemas identificados
 
 - Ausência de um website institucional consolidado para apresentar as duas marcas.
-- Necessidade de explicar que PKZ e One Two One pertencem ao mesmo grupo, mas possuem públicos e abordagens diferentes.
+- Necessidade de explicar que PKZ e One to One pertencem ao mesmo grupo, mas possuem públicos e abordagens diferentes.
 - Dificuldade de apresentar de forma simples a metodologia, os serviços, a estrutura e a equipe.
 - Necessidade de uma comunicação mais visual, profissional e coerente com a identidade da marca.
 - Dependência do WhatsApp para grande parte do contato com alunos, responsáveis e potenciais clientes.
@@ -24,7 +24,7 @@ Além da apresentação institucional, o cliente demonstrou interesse em facilit
 
 ## 2. Pergunta norteadora
 
-**Como criar um site único para o grupo PKZ / One Two One que apresente as duas marcas de forma clara, permita ao visitante escolher a experiência adequada ao seu perfil e mantenha espaço para futuras integrações com os serviços já utilizados pela empresa?**
+**Como criar um site único para o grupo PKZ / One to One que apresente as duas marcas de forma clara, permita ao visitante escolher a experiência adequada ao seu perfil e mantenha espaço para futuras integrações com os serviços já utilizados pela empresa?**
 
 ---
 
@@ -32,14 +32,14 @@ Além da apresentação institucional, o cliente demonstrou interesse em facilit
 
 Nesta etapa, as ideias são registradas sem julgamento ou descarte imediato.
 
-- Criar uma página inicial funcionando como um **hub** para PKZ e One Two One.
+- Criar uma página inicial funcionando como um **hub** para PKZ e One to One.
 - Utilizar um vídeo ou imagens de treinamento na primeira seção do site.
 - Apresentar uma frase curta que explique a proposta geral do grupo.
-- Criar duas áreas visuais principais na página inicial: **PKZ** e **One Two One**.
+- Criar duas áreas visuais principais na página inicial: **PKZ** e **One to One**.
 - Permitir que cada área leve para uma página específica da respectiva marca.
 - Explicar que as duas marcas pertencem à mesma empresa e compartilham uma metodologia de atendimento individualizado.
 - Criar uma seção "Sobre nós" contando brevemente a história do grupo.
-- Apresentar a diferença entre o público e a abordagem da PKZ e da One Two One.
+- Apresentar a diferença entre o público e a abordagem da PKZ e da One to One.
 - Mostrar a metodologia de trabalho de cada marca.
 - Criar uma seção para apresentar serviços e tipos de treinamento.
 - Criar uma seção com fotos e vídeos da estrutura e dos treinamentos.
@@ -51,7 +51,7 @@ Nesta etapa, as ideias são registradas sem julgamento ou descarte imediato.
 - Evitar exibir um preço fixo como informação principal, pois os pacotes podem variar conforme a necessidade do cliente.
 - Utilizar chamadas para **conhecer a empresa**, **agendar uma avaliação/aula experimental** ou **entrar em contato**.
 - Disponibilizar acesso ao WhatsApp.
-- Separar o contato da PKZ e da One Two One dentro das respectivas páginas.
+- Separar o contato da PKZ e da One to One dentro das respectivas páginas.
 - Criar uma área para início de cadastro de novos interessados.
 - Criar um acesso reservado para clientes já cadastrados.
 - Deixar agenda, relatórios, histórico de treinos e gráficos de evolução dentro de uma área restrita.
@@ -63,13 +63,13 @@ Nesta etapa, as ideias são registradas sem julgamento ou descarte imediato.
 - Aplicar boas práticas de acessibilidade e contraste.
 - Evitar exposição de dados pessoais de alunos e atletas na área pública.
 - Preparar a estrutura visual do front-end para futuras integrações com backend, agenda, relatórios e autenticação.
-- Utilizar elementos visuais diferentes para PKZ e One Two One sem perder a identidade comum do grupo.
+- Utilizar elementos visuais diferentes para PKZ e One to One sem perder a identidade comum do grupo.
 - Criar uma navegação por seções na página inicial, inspirada em sites institucionais com rolagem simples e conteúdo progressivo.
 
 --## 4. Agrupamento das ideias ### 4.1 Página inicial / Hub
 - Apresentação geral do grupo.
 - Vídeo ou imagem de impacto.
-- Introdução curta sobre PKZ e One Two One.
+- Introdução curta sobre PKZ e One to One.
 - Escolha visual entre as duas marcas.
 - História resumida do grupo.
 - Identidade visual comum.
@@ -85,8 +85,8 @@ Nesta etapa, as ideias são registradas sem julgamento ou descarte imediato.
 - Contato e chamada para avaliação.
 - Acesso do atleta/responsável à área restrita.
 
-### 4.3 Página One Two One
-- Explicação da One Two One.
+### 4.3 Página One to One
+- Explicação da One to One.
 - Público predominantemente adulto.
 - Treinamento individualizado e musculação.
 - Serviços oferecidos.
@@ -112,10 +112,10 @@ Nesta etapa, as ideias são registradas sem julgamento ou descarte imediato.
 
 | Prioridade | Ideias selecionadas |
 |---|---|
-| **Essencial para o site** | Hub inicial, apresentação das marcas, páginas separadas para PKZ e One Two One, metodologia, serviços, equipe, fotos/vídeos, FAQ, contato e identidade ↩ visual responsiva. |
+| **Essencial para o site** | Hub inicial, apresentação das marcas, páginas separadas para PKZ e One to One, metodologia, serviços, equipe, fotos/vídeos, FAQ, contato e identidade ↩ visual responsiva. |
 | **Importante** | Cadastro inicial, chamadas para avaliação/aula experimental, acesso à área do cliente e estrutura preparada para integração. |
 | **Evolução futura** | Agenda em tempo real, cancelamento, fila de espera, notificações, relatórios, gráficos de evolução, observações de treino, financeiro e outras automações. |
 
 --## 6. Direção escolhida
 
-A proposta inicial é desenvolver um **portal central do grupo**, com uma página de entrada que apresenta a identidade comum e direciona o usuário para a PKZ ou para a One Two One. Cada marca terá sua própria página, com conteúdo, linguagem e imagens adequadas ao seu público. O visitante poderá conhecer a empresa, entender a metodologia, visualizar a estrutura e entrar em contato. Clientes já cadastrados terão um ponto de acesso separado para uma área restrita, cuja integração completa dependerá das próximas etapas do projeto. O site deverá ser visual, responsivo, acessível e organizado por seções, priorizando clareza e facilidade de navegação.
+A proposta inicial é desenvolver um **portal central do grupo**, com uma página de entrada que apresenta a identidade comum e direciona o usuário para a PKZ ou para a One to One. Cada marca terá sua própria página, com conteúdo, linguagem e imagens adequadas ao seu público. O visitante poderá conhecer a empresa, entender a metodologia, visualizar a estrutura e entrar em contato. Clientes já cadastrados terão um ponto de acesso separado para uma área restrita, cuja integração completa dependerá das próximas etapas do projeto. O site deverá ser visual, responsivo, acessível e organizado por seções, priorizando clareza e facilidade de navegação.

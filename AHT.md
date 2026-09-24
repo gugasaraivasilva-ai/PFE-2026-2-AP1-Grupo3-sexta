@@ -1,10 +1,10 @@
-# AHT - Portal PKZ / One Two One
+# AHT - Portal PKZ / One to One
 
-> Análise Hierárquica de Tarefas do website da PKZ (Playmakerz) e da One Two One.
+> Análise Hierárquica de Tarefas do website da PKZ (Playmakerz) e da One to One.
 
 ## 1. Objetivo principal
 
-**0. Utilizar o portal PKZ / One Two One para conhecer a empresa, escolher a marca adequada e realizar a ação desejada.**
+**0. Utilizar o portal PKZ / One to One para conhecer a empresa, escolher a marca adequada e realizar a ação desejada.**
 
 ## 2. Hierarquia de tarefas
 
@@ -14,7 +14,7 @@
 
 - **1.1** Acessar a página inicial.
 - **1.2** Visualizar a apresentação principal.
-- **1.3** Entender que PKZ e One Two One pertencem ao mesmo grupo.
+- **1.3** Entender que PKZ e One to One pertencem ao mesmo grupo.
 - **1.4** Consultar informações introdutórias sobre a empresa.
 
 **Plano 1:** executar 1.1 -> 1.2 -> 1.3. Executar 1.4 quando o usuário desejar conhecer melhor o grupo antes de escolher uma marca.
@@ -22,7 +22,7 @@
 #### 2. Escolher uma marca
 
 - **2.1** Visualizar a opção PKZ.
-- **2.2** Visualizar a opção One Two One.
+- **2.2** Visualizar a opção One to One.
 - **2.3** Identificar qual proposta corresponde melhor ao perfil do usuário.
 - **2.4** Selecionar a marca desejada.
 
@@ -41,9 +41,9 @@
 
 **Plano 3:** executar 3.1 -> 3.2 -> 3.3. As tarefas 3.4, 3.5, 3.6 e 3.7 podem ser realizadas conforme o interesse do usuário. Finalizar com 3.8 quando houver intenção de prosseguir.
 
-#### 4. Conhecer a One Two One
+#### 4. Conhecer a One to One
 
-- **4.1** Acessar a página da One Two One.
+- **4.1** Acessar a página da One to One.
 - **4.2** Ler a apresentação da marca.
 - **4.3** Conhecer o público e a metodologia.
 - **4.4** Consultar serviços e estrutura.
@@ -92,7 +92,7 @@
 1. Todo usuário inicia pela tarefa **1 - Conhecer o grupo**.
 2. Em seguida, realiza a tarefa **2 - Escolher uma marca**.
 3. Se escolher PKZ, realiza a tarefa **3 - Conhecer a PKZ**.
-4. Se escolher One Two One, realiza a tarefa **4 - Conhecer a One Two One**.
+4. Se escolher One to One, realiza a tarefa **4 - Conhecer a One to One**.
 5. Se for um novo interessado, realiza a tarefa **5 - Entrar em contato**.
 6. Se já for cliente, realiza a tarefa **6 - Acessar a área restrita**.
 7. Após autenticação, poderá realizar a tarefa **7 - Consultar recursos da área restrita**.
@@ -108,7 +108,7 @@
 |   |
 |   +-- PKZ ---------> 3. Conhecer a PKZ
 |   |
-|   +-- One Two One -> 4. Conhecer a One Two One
+|   +-- One to One -> 4. Conhecer a One to One
 |
 +-- Novo interessado -> 5. Entrar em contato
 |
@@ -128,8 +128,8 @@ start
 if (Marca escolhida?) then (PKZ)
   :Acessar página PKZ;
   :Consultar metodologia, serviços e conteúdo;
-else (One Two One)
-  :Acessar página One Two One;
+else (One to One)
+  :Acessar página One to One;
   :Consultar metodologia, serviços e conteúdo;
 endif
 if (Já é cliente?) then (não)
