@@ -42,7 +42,7 @@ Funcionalidades como agenda em tempo real, autenticação completa, relatórios 
 | Termo                | Definição                                                                                                         |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | **PKZ / Playmakerz** | Marca do grupo voltada principalmente ao desenvolvimento esportivo e ao treinamento de atletas.                   |
-| **One to One**      | Marca do grupo voltada principalmente ao treinamento individualizado, musculação e atendimento de público adulto. |
+| **One to One**       | Marca do grupo voltada principalmente ao treinamento individualizado, musculação e atendimento de público adulto. |
 | **Hub**              | Página inicial que reúne e direciona o usuário para as duas marcas.                                               |
 | **Landing page**     | Página específica de uma marca, serviço ou objetivo.                                                              |
 | **Área restrita**    | Espaço acessível somente por usuários autorizados.                                                                |
@@ -84,7 +84,7 @@ Clientes já cadastrados terão um ponto de acesso separado para a área restrit
 | -------------- | --------------------------------------------------------------------------------------------------------------------- |
 | _Para_         | Visitantes, atletas, pais/responsáveis e pessoas interessadas em treinamento individualizado.                         |
 | _Que precisam_ | Entender a proposta das marcas, conhecer os serviços e encontrar uma forma simples de iniciar contato.                |
-| _O produto_    | É um portal web integrado para PKZ e One to One.                                                                     |
+| _O produto_    | É um portal web integrado para PKZ e One to One.                                                                      |
 | _Que oferece_  | Informação institucional clara, navegação por marca, conteúdo visual e acesso facilitado aos canais de contato.       |
 | _Diferencial_  | Reúne as duas marcas em uma identidade comum, mas preserva a comunicação e a experiência específicas de cada público. |
 
@@ -94,7 +94,7 @@ Clientes já cadastrados terão um ponto de acesso separado para a área restrit
 
 | Stakeholder                    | Interesse / necessidade                                                                                               |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| _Gestão da PKZ / One to One_  | Apresentar as marcas de forma profissional, fortalecer a identidade do grupo e facilitar a comunicação com o público. |
+| _Gestão da PKZ / One to One_   | Apresentar as marcas de forma profissional, fortalecer a identidade do grupo e facilitar a comunicação com o público. |
 | _Professores e equipe técnica_ | Ter as informações institucionais organizadas e, futuramente, acesso a recursos internos relacionados aos alunos.     |
 | _Recepção / atendimento_       | Facilitar contato, cadastro, agendamentos e encaminhamento de interessados.                                           |
 | _Equipe acadêmica_             | Transformar os requisitos do cliente em documentação, protótipo e front-end funcional.                                |
@@ -107,7 +107,7 @@ Clientes já cadastrados terão um ponto de acesso separado para a área restrit
 | _Visitante / potencial cliente_    | Entender o que é a empresa, comparar as duas marcas, conhecer serviços e entrar em contato.                           |
 | _Atleta da PKZ_                    | Conhecer a metodologia, visualizar informações da PKZ e acessar sua área quando disponível.                           |
 | _Pai ou responsável_               | Entender o trabalho realizado com o atleta e acessar informações autorizadas de forma clara e segura.                 |
-| _Cliente da One to One_           | Conhecer serviços e acessar recursos pessoais quando disponíveis.                                                     |
+| _Cliente da One to One_            | Conhecer serviços e acessar recursos pessoais quando disponíveis.                                                     |
 | _Professor / profissional interno_ | Em etapas futuras, consultar informações de agenda e acompanhamento relacionadas aos alunos sob sua responsabilidade. |
 
 ---
@@ -173,8 +173,8 @@ O portal será organizado em três níveis principais:
 
 | ID     | Requisito funcional                                                                                                                    |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------------- |
-| _RF01_ | O portal deve apresentar a PKZ e a One to One como marcas pertencentes ao mesmo grupo.                                                |
-| _RF02_ | A página inicial deve permitir que o usuário escolha entre PKZ e One to One.                                                          |
+| _RF01_ | O portal deve apresentar a PKZ e a One to One como marcas pertencentes ao mesmo grupo.                                                 |
+| _RF02_ | A página inicial deve permitir que o usuário escolha entre PKZ e One to One.                                                           |
 | _RF03_ | O sistema deve direcionar o usuário para uma página específica da marca selecionada.                                                   |
 | _RF04_ | Cada página de marca deve apresentar descrição, público, metodologia e serviços.                                                       |
 | _RF05_ | O site deve permitir a exibição de fotos e vídeos autorizados pelo cliente.                                                            |
@@ -205,21 +205,21 @@ O portal será organizado em três níveis principais:
 
 ### 6.1 Restrições
 
-•⁠ ⁠O projeto atual é acadêmico e possui foco em _Front-End_.
-•⁠ ⁠Integrações reais com backend, banco de dados, autenticação, pagamentos e WhatsApp dependem de tecnologias e serviços adicionais.
-•⁠ ⁠Dados pessoais reais de alunos, atletas e responsáveis não devem ser utilizados no protótipo público.
-•⁠ ⁠Imagens de alunos, especialmente menores de idade, dependem de autorização adequada do cliente.
-•⁠ ⁠O website não deve apresentar um preço único como regra geral, pois os pacotes podem variar conforme o serviço e a necessidade do cliente.
-•⁠ ⁠O prazo de desenvolvimento é limitado ao calendário da disciplina.
+- ⁠O projeto atual é acadêmico e possui foco em _Front-End_.
+- ⁠Integrações reais com backend, banco de dados, autenticação, pagamentos e WhatsApp dependem de tecnologias e serviços adicionais.
+- ⁠Dados pessoais reais de alunos, atletas e responsáveis não devem ser utilizados no protótipo público.
+- ⁠Imagens de alunos, especialmente menores de idade, dependem de autorização adequada do cliente.
+- ⁠O website não deve apresentar um preço único como regra geral, pois os pacotes podem variar conforme o serviço e a necessidade do cliente.
+- ⁠O prazo de desenvolvimento é limitado ao calendário da disciplina.
 
 ### 6.2 Premissas
 
-•⁠ ⁠O cliente fornecerá logos, paleta oficial e demais elementos de identidade visual.
-•⁠ ⁠O cliente fornecerá ou autorizará fotos e vídeos que poderão ser usados no site.
-•⁠ ⁠O conteúdo institucional será validado pelo cliente antes da versão final.
-•⁠ ⁠PKZ e One to One continuarão sendo apresentadas como partes do mesmo grupo.
-•⁠ ⁠A página inicial funcionará como ponto de entrada comum e as páginas internas terão comunicação específica para cada marca.
-•⁠ ⁠Funcionalidades privadas poderão ser prototipadas mesmo que a integração completa não seja realizada na primeira versão.
+- ⁠O cliente fornecerá logos, paleta oficial e demais elementos de identidade visual.
+- ⁠O cliente fornecerá ou autorizará fotos e vídeos que poderão ser usados no site.
+- ⁠O conteúdo institucional será validado pelo cliente antes da versão final.
+- ⁠PKZ e One to One continuarão sendo apresentadas como partes do mesmo grupo.
+- ⁠A página inicial funcionará como ponto de entrada comum e as páginas internas terão comunicação específica para cada marca
+- ⁠Funcionalidades privadas poderão ser prototipadas mesmo que a integração completa não seja realizada na primeira versão.
 
 ## 7. Riscos e Dependências
 
@@ -236,11 +236,11 @@ O portal será organizado em três níveis principais:
 
 ## 8. Critérios gerais de aceitação
 
-•⁠ ⁠O usuário deve identificar claramente que PKZ e One to One fazem parte do mesmo grupo.
-•⁠ ⁠O usuário deve compreender a diferença entre as duas marcas.
-•⁠ ⁠O usuário deve conseguir acessar a página específica da marca desejada.
-•⁠ ⁠As informações principais devem estar organizadas em seções claras.
-•⁠ ⁠O site deve funcionar de forma responsiva.
-•⁠ ⁠O site deve disponibilizar um caminho simples para contato.
-•⁠ ⁠Conteúdos privados devem permanecer separados da área pública.
-•⁠ ⁠A identidade visual deve ser coerente com o material oficial fornecido pelo cliente.
+- ⁠O usuário deve identificar claramente que PKZ e One to One fazem parte do mesmo grupo.
+- ⁠O usuário deve compreender a diferença entre as duas marcas.
+- ⁠O usuário deve conseguir acessar a página específica da marca desejada.
+- ⁠As informações principais devem estar organizadas em seções claras.
+- ⁠O site deve funcionar de forma responsiva.
+- ⁠O site deve disponibilizar um caminho simples para contato.
+- ⁠Conteúdos privados devem permanecer separados da área pública.
+- ⁠A identidade visual deve ser coerente com o material oficial fornecido pelo cliente.
