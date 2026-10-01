@@ -1,0 +1,89 @@
+@startuml
+
+title Fluxograma - Portal PKZ / One to One
+
+start
+
+:Acessar o portal;
+:Visualizar a apresentação principal;
+:Conhecer o grupo PKZ / One to One;
+:Consultar informações sobre a empresa;
+
+:Visualizar as opções de marca;
+:Identificar qual proposta corresponde\nao perfil do usuário;
+
+if (Qual marca deseja acessar?) then (PKZ)
+
+  :Acessar página da PKZ;
+  :Ler apresentação da PKZ;
+  :Conhecer público e metodologia;
+  :Consultar serviços e avaliações;
+  :Visualizar fotos e vídeos;
+  :Conhecer a equipe;
+  :Consultar perguntas frequentes;
+
+else (One to One)
+
+  :Acessar página da One to One;
+  :Ler apresentação da One to One;
+  :Conhecer público e metodologia;
+  :Consultar serviços e estrutura;
+  :Visualizar fotos e vídeos;
+  :Conhecer a equipe;
+  :Consultar perguntas frequentes;
+
+endif
+
+
+if (O usuário já é cliente?) then (Não)
+
+  :Selecionar opção de contato;
+  :Escolher canal disponível;
+
+  if (Canal escolhido?) then (WhatsApp)
+    :Abrir WhatsApp da marca;
+  else (Formulário)
+    :Abrir formulário de contato;
+  endif
+
+  :Solicitar informações,\navaliação ou aula experimental;
+  :Finalizar contato;
+
+  stop
+
+else (Sim)
+
+  :Selecionar Área do Cliente,\nÁrea do Atleta ou equivalente;
+  :Informar credenciais;
+  :Solicitar entrada;
+
+  while (Login inválido?) is (Sim)
+
+    :Exibir mensagem de erro\nou recuperação de acesso;
+
+    if (Deseja tentar novamente?) then (Sim)
+      :Informar credenciais novamente;
+      :Solicitar entrada;
+    else (Não)
+      :Encerrar tentativa de acesso;
+      stop
+    endif
+
+  endwhile (Não)
+
+  :Acessar área restrita;
+
+  :Visualizar agenda;
+  :Consultar agendamentos;
+  :Consultar histórico de treinos;
+  :Consultar relatórios;
+  :Visualizar gráficos de evolução;
+  :Ler observações associadas\naos resultados;
+
+  :Encerrar sessão;
+
+  stop
+
+endif
+
+@enduml
