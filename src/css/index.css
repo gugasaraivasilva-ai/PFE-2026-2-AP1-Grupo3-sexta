@@ -1,0 +1,171 @@
+/* ===== Variáveis ===== */
+/* Cores e fonte usadas no site todo. Mude aqui e muda em tudo. */
+:root {
+  --cor-fundo: #14131f;     /* fundo da página (cinza bem escuro) */
+  --cor-header: #0d0630;    /* fundo do header (roxo escuro) */
+  --cor-texto: #ffffff;     /* cor padrão dos textos */
+  --cor-suave: #b8b8c8;     /* textos secundários (eyebrow, parágrafo) */
+  --cor-card: #1b1a28;      /* fundo da legenda da foto */
+  --cor-destaque: #ffffff;  /* fundo dos botões */
+  --fonte: "Inter", system-ui, sans-serif;
+  --largura: 1100px;        /* largura máxima do conteúdo */
+}
+
+/* ===== Reset básico ===== */
+/* Remove os estilos padrão do navegador para começar do zero. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* largura inclui padding e borda */
+}
+
+/* Estilo geral da página */
+body {
+  font-family: var(--fonte);
+  color: var(--cor-texto);
+  background: var(--cor-fundo);
+  line-height: 1.5;
+}
+
+/* Imagens nunca passam da largura da tela */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Links usam a mesma cor do texto ao redor */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ===== Header ===== */
+/* Cabeçalho do topo: logos, menu e copyright */
+header {
+  background-color: var(--cor-header);
+  padding: 16px 48px 20px;
+  display: flex;
+  flex-wrap: wrap;            /* deixa o copyright cair para a linha de baixo */
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 32px;
+}
+
+/* Copyright: ocupa a linha inteira embaixo das logos e do menu */
+header p {
+  width: 100%;
+  font-size: 0.7rem;
+  color: var(--cor-suave);
+}
+
+/* Bloco das logos PKZ × One to One */
+.marcas {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--cor-suave);
+}
+
+.marcas img {
+  width: auto;
+  height: 28px;
+  background: #ffffff;        /* fundo claro para a logo aparecer no header escuro */
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* Menu de navegação (links PKZ, One to One, Fale com a gente) */
+nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 0.8rem;
+}
+
+/* ===== Botão ===== */
+/* Links com cara de botão ("Fale com a gente", "Conheça o grupo") */
+.botao {
+  display: inline-block;
+  background: var(--cor-destaque);
+  color: var(--cor-header);
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 8px 20px;
+  border-radius: 6px;
+}
+
+.botao:hover {
+  opacity: 0.85;
+}
+
+/* ===== Hero ===== */
+/* Seção principal logo abaixo do header */
+.hero {
+  max-width: var(--largura);
+  margin: 0 auto;
+  padding: 48px 40px;
+}
+
+/* Texto pequeno acima do título ("GRUPO PKZ · ONE TO ONE") */
+.eyebrow {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--cor-suave);
+  margin-bottom: 12px;
+}
+
+/* Título principal da hero */
+.hero h1 {
+  font-size: 1.6rem;
+  line-height: 1.25;
+  max-width: 480px;
+  margin-bottom: 12px;
+}
+
+/* Parágrafo de apoio abaixo do título */
+.hero > p:not(.eyebrow) {
+  font-size: 0.85rem;
+  color: var(--cor-suave);
+  max-width: 480px;
+  margin-bottom: 20px;
+}
+
+/* Banner com a foto */
+figure {
+  margin-top: 24px;
+  border-radius: 8px;
+  overflow: hidden;           /* arredonda os cantos da imagem */
+  background: var(--cor-card);
+}
+
+figure img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;          /* corta a foto sem distorcer */
+}
+
+/* Legenda embaixo da foto */
+figcaption {
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 10px 12px;
+}
+
+/* ===== Celular ===== */
+/* Em telas pequenas, empilha o header e reduz espaçamentos */
+@media (max-width: 600px) {
+  header {
+    padding: 16px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .hero {
+    padding: 32px 16px;
+  }
+}
