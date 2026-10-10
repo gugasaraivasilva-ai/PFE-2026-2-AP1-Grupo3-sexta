@@ -25,6 +25,9 @@ body {
   color: var(--cor-texto);
   background: var(--cor-fundo);
   line-height: 1.5;
+  min-height: 100vh;          /* body ocupa no mínimo a tela toda */
+  display: flex;
+  flex-direction: column;     /* header, main e footer empilhados */
 }
 
 /* Imagens nunca passam da largura da tela */
@@ -41,22 +44,14 @@ a {
 }
 
 /* ===== Header ===== */
-/* Cabeçalho do topo: logos, menu e copyright */
+/* Cabeçalho do topo: logos e menu */
 header {
   background-color: var(--cor-header);
-  padding: 16px 48px 20px;
+  padding: 20px 48px;
   display: flex;
-  flex-wrap: wrap;            /* deixa o copyright cair para a linha de baixo */
   justify-content: space-between;
   align-items: center;
   gap: 32px;
-}
-
-/* Copyright: ocupa a linha inteira embaixo das logos e do menu */
-header p {
-  width: 100%;
-  font-size: 0.7rem;
-  color: var(--cor-suave);
 }
 
 /* Bloco das logos PKZ × One to One */
@@ -69,7 +64,7 @@ header p {
 
 .marcas img {
   width: auto;
-  height: 28px;
+  height: 36px;
   background: #ffffff;        /* fundo claro para a logo aparecer no header escuro */
   padding: 2px 4px;
 }
@@ -79,7 +74,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 24px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 /* ===== Botão ===== */
@@ -89,8 +84,8 @@ nav {
   background: var(--cor-destaque);
   color: var(--cor-header);
   font-weight: 600;
-  font-size: 0.85rem;
-  padding: 8px 20px;
+  font-size: 0.9rem;
+  padding: 10px 24px;
 }
 
 /* Ao passar o mouse, o botão fica cinza claro */
@@ -101,6 +96,7 @@ nav {
 /* ===== Hero ===== */
 /* main em flex centraliza a hero na horizontal */
 main {
+  flex: 1;                    /* ocupa o espaço que sobra e empurra o footer para baixo */
   display: flex;
   justify-content: center;
 }
@@ -156,10 +152,20 @@ figcaption {
   padding: 10px 12px;
 }
 
+/* ===== Footer ===== */
+/* Rodapé com o copyright, sempre no fim da página */
+footer {
+  background-color: var(--cor-header);
+  color: var(--cor-suave);
+  font-size: 0.7rem;
+  padding: 24px 48px;
+}
+
 /* ===== Celular ===== */
 /* Em telas pequenas, empilha o header e reduz espaçamentos */
 @media (max-width: 600px) {
-  header {
+  header,
+  footer {
     padding: 16px;
   }
 
