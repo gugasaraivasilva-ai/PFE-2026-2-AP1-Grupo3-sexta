@@ -34,9 +34,9 @@ img {
   display: block;
 }
 
-/* Links usam a mesma cor do texto ao redor */
+/* Links brancos e sem sublinhado */
 a {
-  color: inherit;
+  color: var(--cor-texto);
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ header {
   flex-wrap: wrap;            /* deixa o copyright cair para a linha de baixo */
   justify-content: space-between;
   align-items: center;
-  row-gap: 32px;
+  gap: 32px;
 }
 
 /* Copyright: ocupa a linha inteira embaixo das logos e do menu */
@@ -72,7 +72,6 @@ header p {
   height: 28px;
   background: #ffffff;        /* fundo claro para a logo aparecer no header escuro */
   padding: 2px 4px;
-  border-radius: 3px;
 }
 
 /* Menu de navegação (links PKZ, One to One, Fale com a gente) */
@@ -92,18 +91,24 @@ nav {
   font-weight: 600;
   font-size: 0.85rem;
   padding: 8px 20px;
-  border-radius: 6px;
 }
 
+/* Ao passar o mouse, o botão fica cinza claro */
 .botao:hover {
-  opacity: 0.85;
+  background-color: var(--cor-suave);
 }
 
 /* ===== Hero ===== */
+/* main em flex centraliza a hero na horizontal */
+main {
+  display: flex;
+  justify-content: center;
+}
+
 /* Seção principal logo abaixo do header */
 .hero {
+  width: 100%;
   max-width: var(--largura);
-  margin: 0 auto;
   padding: 48px 40px;
 }
 
@@ -111,7 +116,6 @@ nav {
 .eyebrow {
   font-size: 0.7rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
   color: var(--cor-suave);
   margin-bottom: 12px;
 }
@@ -124,8 +128,8 @@ nav {
   margin-bottom: 12px;
 }
 
-/* Parágrafo de apoio abaixo do título */
-.hero > p:not(.eyebrow) {
+/* Parágrafo de apoio: o primeiro <p> logo depois do h1 */
+.hero h1 + p {
   font-size: 0.85rem;
   color: var(--cor-suave);
   max-width: 480px;
@@ -135,8 +139,7 @@ nav {
 /* Banner com a foto */
 figure {
   margin-top: 24px;
-  border-radius: 8px;
-  overflow: hidden;           /* arredonda os cantos da imagem */
+  overflow: hidden;           /* corta o que passar do tamanho da figure */
   background: var(--cor-card);
 }
 

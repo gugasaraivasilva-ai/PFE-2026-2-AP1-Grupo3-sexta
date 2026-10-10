@@ -10,34 +10,34 @@
   <header>
     <div class="marcas">
       <a href="index.html">
-        <img src="../../midias/logo-pkz.svg" alt="Logo PKZ" width="80" height="48">
+        <img src="../../midias/logo-pkz.svg" alt="Logo PKZ" style="width: 80px">
       </a>
-      <span aria-hidden="true">×</span>
+      <span>×</span>
       <a href="index.html">
-        <img src="../../midias/logo-one-to-one.svg" alt="Logo One to One" width="80" height="48">
+        <img src="../../midias/logo-one-to-one.svg" alt="Logo One to One" style="width: 80px">
       </a>
     </div>
 
-    <nav aria-label="Navegação principal">
-      <a href="login.html" aria-current="page">Acesso do Grupo</a>
+    <nav>
+      <a href="index.html">Acesso do Grupo</a>
     </nav>
   </header>
 
   <main>
 
     <!-- Cartão de acesso: abas + formulário de login -->
-    <section class="acesso" aria-labelledby="titulo-login">
+    <section class="acesso">
 
       <!-- Abas: Entrar (atual) e Criar cadastro -->
-      <nav class="abas" aria-label="Tipo de acesso">
-        <a href="#login" aria-current="page">Entrar</a>
-        <a href="#cadastro">Criar cadastro</a>
+      <nav class="abas">
+        <a href="#login">Entrar</a>
+        <a href="cadastro.html">Criar cadastro</a>
       </nav>
 
       <div id="login">
         <h1 id="titulo-login">Bem-vindo de volta</h1>
 
-        <p>Acesse com o e-mail cadastrado no grupo PKZ · <span translate="no">One to One</span>.</p>
+        <p>Acesse com o e-mail cadastrado no grupo PKZ · One to One.</p>
 
         <form action="#" method="post">
           <!-- label + input ligados pelo for/id -->
@@ -46,8 +46,6 @@
             type="email"
             id="email"
             name="email"
-            placeholder="seu@email.com"
-            autocomplete="email"
             required
           >
 
@@ -56,8 +54,6 @@
             type="password"
             id="senha"
             name="senha"
-            placeholder="••••••••"
-            autocomplete="current-password"
             required
           >
 
@@ -66,24 +62,22 @@
           <button type="submit" class="botao">Entrar</button>
         </form>
 
-        <p>Não tem conta? <a href="#cadastro">Criar cadastro</a></p>
+        <p>Não tem conta?</p>
+        <a href="cadastro.html" class="botao">Criar conta</a>
       </div>
-
-      <!-- Formulário de cadastro: será feito na próxima etapa -->
-      <div id="cadastro"></div>
     </section>
 
     <!-- Estado de erro: mensagem exibida quando o login falha -->
-    <aside class="estado-erro" aria-labelledby="titulo-erro">
+    <aside class="estado-erro">
       <h2 id="titulo-erro">Estado de erro</h2>
-      <p role="alert">E-mail ou senha incorretos. Tente novamente.</p>
+      <p>E-mail ou senha incorretos. Tente novamente.</p>
     </aside>
 
   </main>
 
   <!-- Rodapé -->
   <footer>
-    <p><small>&copy; 2026 Grupo PKZ · <span translate="no">One to One</span></small></p>
+    <p>&copy; 2026 Grupo PKZ · One to One</p>
   </footer>
 </body>
 </html>
