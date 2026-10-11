@@ -1,0 +1,153 @@
+/* ===== Cadastro ===== */
+/* Este arquivo é carregado DEPOIS do login.css.
+   O login.css já cuida do header, cartão, botão e footer;
+   aqui ficam só as diferenças da caixinha de cadastro. */
+
+/* ===== Título e textos ===== */
+/* Mesmo tamanho do "Bem-vindo de volta" */
+#titulo-cadastro {
+  font-size: 1.3rem;
+  margin-bottom: 16px;
+}
+
+#cadastro p {
+  font-size: 0.75rem;
+  color: var(--cor-suave);
+}
+
+/* Parágrafo logo depois do título */
+#titulo-cadastro + p {
+  margin-bottom: 20px;
+}
+
+/* Link "Entrar" no "Já tem conta?" */
+#cadastro p a {
+  font-weight: 600;
+}
+
+/* ===== Cartão mais largo ===== */
+/* O cadastro tem muitos campos: caixa mais larga = menos rolagem */
+.acesso {
+  max-width: 640px;
+}
+
+/* Menos espaço em volta do cartão: ele já é alto */
+main {
+  padding: 32px 16px;
+}
+
+/* ===== Grupos do formulário (fieldset) ===== */
+/* Cada grupo tem só uma linha fina em cima, com o nome do grupo */
+fieldset {
+  border: none;
+  border-top: 1px solid var(--cor-borda);
+  padding-top: 10px;
+  margin-bottom: 4px;
+}
+
+/* Título do grupo ("Dados pessoais", "Endereço"...) */
+legend {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--cor-suave);
+  padding-right: 8px;
+}
+
+/* ===== Linhas e campos ===== */
+/* .linha coloca os campos lado a lado */
+.linha {
+  display: flex;
+  gap: 12px;
+}
+
+/* .campo = label em cima, input embaixo; flex: 1 divide a linha igualmente */
+.campo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Campo estreito (Estado e Número): não cresce, largura fixa */
+.campo-pequeno {
+  flex: 0 0 100px;
+}
+
+/* Na linha das senhas, os dois grupos dividem o espaço */
+.linha fieldset {
+  flex: 1;
+}
+
+/* Inputs um pouco mais baixos para caber mais na tela */
+#cadastro input {
+  padding: 8px 10px;
+  margin-bottom: 12px;
+}
+
+/* Caixa de seleção do estado com a mesma cara dos inputs */
+select {
+  font-family: var(--fonte);
+  font-size: 0.8rem;
+  color: var(--cor-texto);
+  background-color: var(--cor-branco);
+  padding: 8px 10px;
+  border: 1px solid var(--cor-borda);
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+/* ===== "Sem número" ===== */
+/* Fica logo abaixo do campo Número, checkbox e texto lado a lado */
+#cadastro #numero {
+  margin-bottom: 6px;
+}
+
+.sem-numero {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+#cadastro #sem-numero {
+  margin: 0;
+}
+
+.sem-numero label {
+  font-weight: normal;
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+/* Campo Número desativado fica acinzentado */
+#numero:disabled {
+  background-color: var(--cor-fundo);
+}
+
+/* ===== Dica da senha ===== */
+/* Texto pequeno logo embaixo do campo de senha */
+#senha + p {
+  margin: -6px 0 12px;
+  font-size: 0.7rem;
+}
+
+/* ===== Mensagem de erro ===== */
+/* Preenchida pelo script quando alguma regra falha */
+/* #cadastro na frente para vencer a regra "#cadastro p" (especificidade) */
+#cadastro #mensagem-erro {
+  color: var(--cor-erro);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* ===== Celular ===== */
+/* Em telas pequenas, os campos voltam a ficar um embaixo do outro */
+@media (max-width: 600px) {
+  .linha {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .campo-pequeno {
+    flex: 1;
+  }
+}

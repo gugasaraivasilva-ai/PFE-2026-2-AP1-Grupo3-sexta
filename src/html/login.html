@@ -26,14 +26,8 @@
 
   <main>
 
-    <!-- Cartão de acesso: abas + formulário de login -->
+    <!-- Cartão de acesso: formulário de login -->
     <section class="acesso">
-
-      <!-- Abas: Entrar (atual) e Criar cadastro -->
-      <nav class="abas">
-        <a href="#login">Entrar</a>
-        <a href="cadastro.html">Criar cadastro</a>
-      </nav>
 
       <div id="login">
         <h1 id="titulo-login">Bem-vindo de volta</h1>
@@ -60,19 +54,16 @@
 
           <a href="#">Esqueci minha senha</a>
 
+          <!-- Mensagem de erro: fica vazia e só aparece quando o login falhar -->
+          <p id="mensagem-erro"></p>
+
           <button type="submit" class="botao">Entrar</button>
         </form>
 
         <p>Não tem conta?</p>
-        <a href="cadastro.html" class="botao">Criar conta</a>
+        <a href="cadastro.html" class="botao botao-secundario">Criar conta</a>
       </div>
     </section>
-
-    <!-- Estado de erro: mensagem exibida quando o login falha -->
-    <aside class="estado-erro">
-      <h2 id="titulo-erro">Estado de erro</h2>
-      <p>E-mail ou senha incorretos. Tente novamente.</p>
-    </aside>
 
   </main>
 
